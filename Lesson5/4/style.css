@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    
+}
+
+.product {
+    width: 200px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.productName {
+    padding-bottom: 10px;
+}
+
+img {
+    display: block;
+}
+
+button {
+    margin-top: 15px;
+    display: block;
+    border-radius: 10px;
+}

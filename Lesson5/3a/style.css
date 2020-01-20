@@ -1,0 +1,56 @@
+.wrap {
+    width: 400px;
+    padding: 20px;
+    background: gold;
+    position: fixed;
+    top: 15%;
+    left: calc(50% - 210px);
+    box-shadow: 0 0 10px black;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 0 0 0 24px;
+}
+
+button:hover {
+    background-color: gray;
+    border: 1px solid #fff;
+}
+
+span {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: gold;
+    font-size: 34px;
+    cursor: pointer;
+    transition: 0.5s;
+    top: -15px;
+    right: -15px;
+}
+
+span:hover {
+    color: aliceblue;
+}
+
+span:active {
+    color: gray;
+}
