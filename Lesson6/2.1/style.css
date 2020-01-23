@@ -1,0 +1,11 @@
+.thumbnail {
+    width: 200px;
+    margin: 20px;
+    border: 3px solid #ccc;
+
+}
+
+#lightgallery > a {
+    text-decoration: none;
+    
+}
